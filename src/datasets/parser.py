@@ -2,7 +2,6 @@ import os
 import shutil
 import random
 import logging
-
 from torchvision.datasets import ImageFolder
 
 logger = logging.getLogger(__name__)

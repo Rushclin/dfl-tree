@@ -1,8 +1,8 @@
 import torch
 import logging
 import inspect
-from collections import defaultdict
 from src import MetricManager
+from collections import defaultdict
 
 logger = logging.getLogger(__name__)
 
@@ -213,6 +213,8 @@ def create_nodes(args, node_dataset,  model):
     nodes = [Node(node_id=i, data_size=len(node_dataset), 
                   args=args, node_dataset=train_node_dataset, 
                   model=model, test_dataset=test_node_dataset) for i in range(args.K)]
+    
+    logger.info(f"Create {args.K} nodes")
     
     return nodes
    

@@ -1,1 +1,1 @@
-from .node import Node, create_nodes
+from .node import *

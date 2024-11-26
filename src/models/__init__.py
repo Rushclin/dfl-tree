@@ -1,1 +1,1 @@
-from .models import TwoCNN, TwoNN
+from .models import *

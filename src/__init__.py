@@ -1,6 +1,6 @@
 import logging
 
-from .utils import set_seed, Range, TensorBoardRunner, check_args, init_weights, TqdmToLogger, MetricManager, stratified_split, tensorboard_runner
+from .utils import *
 from .loaders import *
 from .node import *
 from .tree import *
@@ -22,6 +22,6 @@ def set_logger(path, args):
     logger.addHandler(file_handler)
     logger.setLevel(level=logging.INFO)
     
-    logger.info('[BIENVENNUE] Initialisation...')
-    welcome_message = """FEDERATED LEARNING."""
+    logger.info('[WELCOME] Initialisation...')
+    welcome_message = """VTree Learning, DFL."""
     logger.info(welcome_message)
