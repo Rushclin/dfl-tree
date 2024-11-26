@@ -1,4 +1,4 @@
-exp_name: "dfl"  # Nom de l'expérience
+exp_name: "VTreeLearningIID"  # Nom de l'expérience
 seed: 42  # Seed pour la reproductibilité des résultats
 device: "cpu"  # Appareil utilisé pour l'entraînement ('cpu' ou 'cuda')
 result_path: "results"  # Répertoire pour sauvegarder les résultats
@@ -9,8 +9,6 @@ dataset: "MNIST"  # Nom du dataset (exemple: 'CIFAR-10', 'EMNIST')
 test_size: 0  # Taille des lots pour l'évaluation
 resize: 32  # Dimension des images après redimensionnement
 split_type: "iid"  # Type de partitionnement des données ('iid' ou 'non-iid')
-input_folder: "data"  # Dossier contenant les données brutes
-output_folder: "dataset"  # Dossier pour stocker les données préparées
 in_channels: 1  # Nombre de canaux d'entrée (3 pour RGB, 1 pour niveau de gris)
 train_ratio: 0.8
 num_classes_per_node: 4
@@ -24,10 +22,10 @@ num_classes: 10  # Nombre de classes de sortie (doit correspondre aux données)
 
 # Entraînement
 eval_every: 1  # Fréquence d'évaluation (nombre d'itérations entre les évaluations)
-K: 3  # Nombre total de nœuds dans le réseau (clients)
-R: 2  # Nombre de tours d'itérations globales
-E: 1  # Nombre d'époques locales sur chaque nœud
-B: 32  # Taille des lots pour l'entraînement local
+K: 20  # Nombre total de nœuds dans le réseau (clients)
+R: 50  # Nombre de tours d'itérations globales
+E: 5  # Nombre d'époques locales sur chaque nœud
+B: 10  # Taille des lots pour l'entraînement local
 shuffle: True  # Indique si les données doivent être mélangées avant l'entraînement
 criterion: "CrossEntropyLoss"  # Fonction de perte utilisée (par exemple 'CrossEntropyLoss')
 optimizer: "SGD"
