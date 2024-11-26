@@ -1,6 +1,9 @@
+import os
 import torch
 import logging
 import inspect
+import concurrent.futures
+from src import TqdmToLogger
 from src import MetricManager
 from collections import defaultdict
 
@@ -197,11 +200,20 @@ class Node:
     
     
 def create_nodes(args, node_dataset,  model): 
+    def _create_node(id, dataset):
+        train_node_dataset, test_node_dataset = dataset 
+        node = Node(id, args, train_node_dataset, model, test_node_dataset)
+        return node
     
-    train_node_dataset, test_node_dataset = node_dataset[1] 
-    
-    nodes = [Node(node_id=i, args=args, node_dataset=train_node_dataset, 
-                  model=model, test_dataset=test_node_dataset) for i in range(args.K)]
+    nodes = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(args.K, os.cpu_count() -1)) as workhorse:
+        for i, dataset in TqdmToLogger(
+            enumerate(node_dataset),
+            logger=logger,
+            desc=f'[{args.dataset.upper()}]  ...Creation node ... ',
+            total=len(node_dataset)
+        ):
+            nodes.append(workhorse.submit(_create_node, i, dataset).result())
     
     logger.info(f"Create {args.K} nodes")
     
