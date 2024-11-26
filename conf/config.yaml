@@ -1,0 +1,39 @@
+exp_name: "dfl"  # Nom de l'expérience
+seed: 42  # Seed pour la reproductibilité des résultats
+device: "cpu"  # Appareil utilisé pour l'entraînement ('cpu' ou 'cuda')
+result_path: "results"  # Répertoire pour sauvegarder les résultats
+model_path: "${result_path}/${exp_name}.pt"
+
+# Données
+dataset: "MNIST"  # Nom du dataset (exemple: 'CIFAR-10', 'EMNIST')
+test_size: 0  # Taille des lots pour l'évaluation
+resize: 32  # Dimension des images après redimensionnement
+# crop: 32  # Taille finale après le recadrage (si nécessaire)
+split_type: "iid"  # Type de partitionnement des données ('iid' ou 'non-iid')
+input_folder: "data"  # Dossier contenant les données brutes
+output_folder: "dataset"  # Dossier pour stocker les données préparées
+in_channels: 1  # Nombre de canaux d'entrée (3 pour RGB, 1 pour niveau de gris)
+train_ratio: 0.8
+num_classes_per_node: 4
+
+# Modèle
+model_name: "TwoCNN"  # Nom du modèle utilisé ('CNN', '2NN', etc.)
+hidden_size: 12  # Taille des couches cachées (pour les réseaux fully connected)
+num_layers: 1  # Nombre de couches cachées dans le modèle
+init_type: 'xavier'  # Méthode d'initialisation des poids ('xavier', 'normal', 'orthogonal')
+num_classes: 10  # Nombre de classes de sortie (doit correspondre aux données)
+
+# Entraînement
+eval_every: 1  # Fréquence d'évaluation (nombre d'itérations entre les évaluations)
+K: 3  # Nombre total de nœuds dans le réseau (clients)
+R: 5  # Nombre de tours d'itérations globales
+E: 1  # Nombre d'époques locales sur chaque nœud
+B: 32  # Taille des lots pour l'entraînement local
+shuffle: True  # Indique si les données doivent être mélangées avant l'entraînement
+criterion: "CrossEntropyLoss"  # Fonction de perte utilisée (par exemple 'CrossEntropyLoss')
+optimizer: "SGD"
+eval_metrics: ['acc1', 'precision', 'f1', 'recall']
+max_grad_norm: -1
+
+# Hyperparamètres
+lr: 0.01  # Taux d'apprentissage (Learning Rate)
