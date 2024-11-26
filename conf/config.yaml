@@ -8,7 +8,6 @@ model_path: "${result_path}/${exp_name}.pt"
 dataset: "MNIST"  # Nom du dataset (exemple: 'CIFAR-10', 'EMNIST')
 test_size: 0  # Taille des lots pour l'évaluation
 resize: 32  # Dimension des images après redimensionnement
-# crop: 32  # Taille finale après le recadrage (si nécessaire)
 split_type: "iid"  # Type de partitionnement des données ('iid' ou 'non-iid')
 input_folder: "data"  # Dossier contenant les données brutes
 output_folder: "dataset"  # Dossier pour stocker les données préparées
