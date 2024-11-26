@@ -53,9 +53,7 @@ class Node:
 
         optimizer = self.optim(self.model.parameters(), **self._refine_optim_args(self.args))
         
-        for e in range(self.args.E):  
-            logger.info(f'[EPOCH] Round {e} / {self.args.E}')            
-            
+        for e in range(self.args.E):              
             for inputs, targets in self.train_loader:  
                 inputs, targets = inputs.to(self.args.device), targets.to(self.args.device)
 

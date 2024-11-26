@@ -1,7 +1,9 @@
+import os
 import hydra
 import logging 
+import concurrent.futures
 from omegaconf import DictConfig
-from src import set_seed, check_args, load_model, load_dataset, create_nodes, BinaryTree
+from src import set_seed, check_args, load_model, load_dataset, create_nodes, BinaryTree, TqdmToLogger
 
 logger = logging.getLogger(__name__)
 
@@ -29,8 +31,14 @@ def main(args : DictConfig) -> None:
         tree.reorganize_tree(server)
         tree.broadcast_model()
         
-        for node in tree.nodes:
-            node.update()
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(args.K, os.cpu_count() -1 )) as workhorse:
+            for node in TqdmToLogger(
+                tree.nodes,
+                logger=logger,
+                desc=f'[{args.dataset.upper()}]  ...Train node ... ',
+                total=args.K
+            ):
+                workhorse.submit(node.update).result()
         
         logger.info("Performing aggregation...")
         tree.root.aggregate_models()
