@@ -1,7 +1,11 @@
+import gc 
+import os
 import torch
 import random
 import logging
 import numpy as np
+import concurrent.futures
+from src import TqdmToLogger
 from collections import defaultdict
 import torchvision.datasets as datasets
 from torch.utils.data import DataLoader, Dataset, Subset
@@ -234,7 +238,16 @@ def load_dataset(args):
     
     split_map = split(args, train_dataset)
     node_datasets = []
-    for idx, sample_indices in split_map.items():
-        node_datasets.append(_construct_dataset(train_dataset, idx, sample_indices))
     
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(args.K, os.cpu_count() -1)) as workhorse:
+        for ids, sample_indices in TqdmToLogger(
+            enumerate(split_map.values()),
+            logger=logger,
+            desc=f'[SIMULATION] ...Create a node dataset... ',
+            total=len(split_map)
+        ):
+            node_datasets.append(workhorse.submit(_construct_dataset, train_dataset, ids, sample_indices).result())
+    logger.info(f"End create a nodes dataset")
+      
+    gc.collect() # memory liberation
     return test_dataset, node_datasets
