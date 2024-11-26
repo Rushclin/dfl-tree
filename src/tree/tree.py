@@ -1,11 +1,10 @@
-import logging
+import os
+import torch
 import random
+import logging
 from ..node import Node
 from typing import List
-import torch
 from src import MetricManager
-import os
-import json
 
 logger = logging.getLogger(__name__)
 
@@ -71,9 +70,9 @@ class BinaryTree:
         """
         Broadcast the root's model to all nodes.
         """
-        print(f"Broadcasting model from Node {self.root.node_id} to all nodes.")
+        logger.info(f"Broadcasting model from Node {self.root.node_id} to all nodes.")
         for node in self.nodes:
-            node.model = self.root.model  # Simulating broadcast by copying the root's model
+            node.model = self.root.model  
 
     @torch.no_grad()
     def evaluate(self):
@@ -94,7 +93,7 @@ class BinaryTree:
             mm.aggregate(len(self.test_dataset))
 
         result = mm.results
-        server_log_string = f'[{self.args.dataset.upper()}] [EVALUATE] [SERVER] '
+        server_log_string = f'[{self.args.dataset.upper()}] [EVALUATE] [TREE] '
 
         loss = result['loss']
         server_log_string += f'| loss: {loss:.4f} '
@@ -103,37 +102,16 @@ class BinaryTree:
             server_log_string += f'| {metric}: {value:.4f} '
         logger.info(server_log_string)
 
-        # self.writer.add_scalar('Server Loss', loss, self.round)
-        # for name, value in result['metrics'].items():
-        #     self.writer.add_scalar(f'Server {name.title()}', value, self.round)
-        # else:
-        #     self.writer.flush()
-        # self.results[self.round]['server_evaluated'] = result
            
     def finalize(self):
        """
        Finalize the training process by saving results and model weights.
        Creates a JSON file to store training results and saves the model weights in PyTorch format.
        """
-       # Log the saving process
        logger.info(f"[{self.args.dataset.upper()}] Saving the model and results...")
 
-       # Ensure the result path exists
-    #    os.makedirs(self.args.result_path, exist_ok=True)
-
-       # Save results to a JSON file
-    #    json_path = os.path.join(self.args.result_path, f'{self.args.exp_name}.json')
-    #    with open(json_path, 'w', encoding='utf8') as result_file:
-    #        results = {key: value for key, value in self.results.items()}
-    #        json.dump(results, result_file, indent=4)
-    #    logger.info(f"Results saved to {json_path}")
-
-       # Save model weights
        model_path = os.path.join(self.args.result_path, f'{self.args.exp_name}.pt')
        torch.save(self.root.global_model.state_dict(), model_path)
        logger.info(f"Model weights saved to {model_path}")
-
-       # Optional: Close the writer if using TensorBoard or similar
-       # self.writer.close()
 
        logger.info(f"[{self.args.dataset.upper()}] Finalization complete!")

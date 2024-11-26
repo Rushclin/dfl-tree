@@ -51,71 +51,6 @@ def set_seed(seed: int = 32):
     logger.info(f'[SEED] : {seed}!')
 
     
-class TensorBoardRunner:
-    """
-    TensorBoardRunner class handles the setup and execution of TensorBoard within a separate process.
-    It manages the start, stop, and termination of the TensorBoard process.
-    """
-    def __init__(self, path, host, port):
-        logger.info('[TENSORBOARD] Start TensorBoard process!')
-        self.server = TensorboardServer(path, host, port)
-        self.server.start()
-        self.daemon = True  # Daemonize the process, so it ends when the main program exits
-         
-    def finalize(self):
-        """
-        Safely finalize the TensorBoard process by terminating and joining the process.
-        """
-        if self.server.is_alive():    
-            self.server.terminate()
-            self.server.join()
-        self.server.pkill()  # Ensure all TensorBoard processes are killed
-        logger.info('[TENSORBOARD] ...finished TensorBoard process!')
-        
-    def interrupt(self):
-        """
-        Interrupt and kill all TensorBoard processes.
-        """
-        self.server.pkill()
-        if self.server.is_alive():    
-            self.server.terminate()
-            self.server.join()
-        logger.info('[TENSORBOARD] ...interrupted; killed all TensorBoard processes!')
-
-class TensorboardServer(Process):
-    """
-    TensorboardServer class runs TensorBoard in a separate process, supporting both Windows and Linux OS.
-    """
-    def __init__(self, path, host, port):
-        super().__init__()
-        self.os_name = os.name  # Detect the operating system
-        self.path = str(path)
-        self.host = host
-        self.port = port
-        self.daemon = True
-
-    def run(self):
-        """
-        Run the TensorBoard server using system commands based on the OS.
-        """
-        if self.os_name == 'nt':  # Windows
-            os.system(f'{sys.executable} -m tensorboard.main --logdir "{self.path}" --host {self.host} --reuse_port=true --port {self.port} 2> NUL')
-        elif self.os_name == 'posix':  # Linux
-            os.system(f'{sys.executable} -m tensorboard.main --logdir "{self.path}" --host {self.host} --reuse_port=true --port {self.port} >/dev/null 2>&1')
-        else:
-            err = f'Current OS ({self.os_name}) is not supported!'
-            logger.exception(err)
-            raise Exception(err)
-    
-    def pkill(self):
-        """
-        Kill the TensorBoard process based on the OS.
-        """
-        if self.os_name == 'nt':  # Windows
-            os.system(f'taskkill /IM "tensorboard.exe" /F')
-        elif self.os_name == 'posix':  # Linux
-            os.system('pgrep -f tensorboard | xargs kill -9')
-
 class TqdmToLogger(tqdm):
     """
     Custom progress bar class that integrates TQDM with the logger for smooth logging of progress.
@@ -185,34 +120,6 @@ def init_weights(model, init_type, init_gain):
             if hasattr(m, 'bias') and m.bias is not None:
                 torch.nn.init.constant_(m.bias.data, 0.0)
     model.apply(init_func)
-
-def stratified_split(raw_dataset, test_size):
-    """
-    Split the dataset into training and testing sets in a stratified manner (i.e., balanced across classes).
-    
-    Args:
-        raw_dataset: The dataset to split, wrapped in a PyTorch Subset.
-        test_size: The proportion of data to be used for testing.
-        
-    Returns:
-        train_subset: The training subset.
-        test_subset: The testing subset.
-    """
-    indices_per_label = defaultdict(list)
-    
-    # Group indices by label
-    for index, label in enumerate(np.array(raw_dataset.dataset.targets)[raw_dataset.indices]):
-        indices_per_label[label.item()].append(index)
-    
-    train_indices, test_indices = [], []
-    for label, indices in indices_per_label.items():
-        # Determine the number of samples for testing based on the test_size ratio
-        n_samples_for_label = round(len(indices) * test_size)
-        random_indices_sample = random.sample(indices, n_samples_for_label)
-        test_indices.extend(random_indices_sample)
-        train_indices.extend(set(indices) - set(random_indices_sample))
-    
-    return torch.utils.data.Subset(raw_dataset, train_indices), torch.utils.data.Subset(raw_dataset, test_indices)
 
 def check_args(args):
     """
@@ -307,12 +214,4 @@ class MetricManager:
             dict: A dictionary containing loss and metrics results.
         """
         return self._results
-        
-def tensorboard_runner(args):
-    """
-    Launch TensorBoard in the background to visualize training logs.
-    
-    Args:
-        args: Command-line arguments specifying log path and TensorBoard port.
-    """
-    subprocess.Popen(f"tensorboard --logdir {args.log_path} --port {args.tb_port}", shell=True)
+ 

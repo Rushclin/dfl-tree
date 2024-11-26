@@ -7,7 +7,7 @@ def show_plot(datas, targets):
         plt.subplot(2,3,i+1)
         plt.tight_layout()
         plt.imshow(datas[i][0], cmap='gray', interpolation='none')
-        plt.title("Ground Truth: {}".format(targets[i]))
+        plt.title("Label  {}".format(targets[i]))
         plt.xticks([])
         plt.yticks([])
     plt.show()
@@ -23,7 +23,7 @@ def show_evaluate_plot(model, test_loader):
             plt.subplot(2, 3, i+1)
             plt.tight_layout()
             plt.imshow(inputs[i][0], cmap="gray", interpolation='none')
-            plt.title(f"Prediction {predictions[i]}, True {labels[i]}")
+            plt.title(f"Prediction {predictions[i]}, Real label {labels[i]}")
             plt.xticks([])
             plt.yticks([])
             
