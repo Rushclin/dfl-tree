@@ -25,7 +25,7 @@ num_classes: 10  # Nombre de classes de sortie (doit correspondre aux données)
 # Entraînement
 eval_every: 1  # Fréquence d'évaluation (nombre d'itérations entre les évaluations)
 K: 3  # Nombre total de nœuds dans le réseau (clients)
-R: 5  # Nombre de tours d'itérations globales
+R: 2  # Nombre de tours d'itérations globales
 E: 1  # Nombre d'époques locales sur chaque nœud
 B: 32  # Taille des lots pour l'entraînement local
 shuffle: True  # Indique si les données doivent être mélangées avant l'entraînement
@@ -33,6 +33,7 @@ criterion: "CrossEntropyLoss"  # Fonction de perte utilisée (par exemple 'Cross
 optimizer: "SGD"
 eval_metrics: ['acc1', 'precision', 'f1', 'recall']
 max_grad_norm: -1
+log_path: logs
 
 # Hyperparamètres
 lr: 0.01  # Taux d'apprentissage (Learning Rate)

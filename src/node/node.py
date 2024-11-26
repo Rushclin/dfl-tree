@@ -139,9 +139,7 @@ class Node:
         """
         Centrally evaluate the global model on the server dataset.
         Tracks evaluation metrics such as loss and accuracy.
-        """
-        logger.info(f"Evaluating the model on Node {self.node_id}...")
-        
+        """        
         mm = MetricManager(self.args.eval_metrics)
         self.global_model.to(self.args.device)
         self.global_model.eval()
@@ -163,7 +161,7 @@ class Node:
 
         for metric, value in result['metrics'].items():
             server_log_string += f'| {metric}: {value:.4f} '
-        logger.info(server_log_string)
+        logger.info(server_log_string) #TODO! Track in file
         return mm
     
     def _create_dataloader(self, dataset, shuffle):

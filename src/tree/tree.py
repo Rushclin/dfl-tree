@@ -1,10 +1,12 @@
 import os
+import json
 import torch
 import random
 import logging
 from ..node import Node
 from typing import List
 from src import MetricManager
+from collections import defaultdict
 
 logger = logging.getLogger(__name__)
 
@@ -17,6 +19,8 @@ class BinaryTree:
         self.root: Node = None
         self.test_dataset = test_dataset
         self.args = args
+        self.results = defaultdict(dict)
+        
 
     def build_tree(self):
         """
@@ -75,7 +79,7 @@ class BinaryTree:
             node.model = self.root.model  
 
     @torch.no_grad()
-    def evaluate(self):
+    def evaluate(self, curr_round: int):
         mm = MetricManager(self.args.eval_metrics)
         self.root.global_model.to(self.args.device)
         self.root.global_model.eval()
@@ -93,6 +97,7 @@ class BinaryTree:
             mm.aggregate(len(self.test_dataset))
 
         result = mm.results
+        self.results[curr_round] = result
         server_log_string = f'[{self.args.dataset.upper()}] [EVALUATE] [TREE] '
 
         loss = result['loss']
@@ -109,6 +114,10 @@ class BinaryTree:
        Creates a JSON file to store training results and saves the model weights in PyTorch format.
        """
        logger.info(f"[{self.args.dataset.upper()}] Saving the model and results...")
+       
+       with open(os.path.join(self.args.result_path, f'{self.args.exp_name}.json'), 'w', encoding='utf8') as result_file:
+            results = {key: value for key, value in self.results.items()}
+            json.dump(results, result_file, indent=4)
 
        model_path = os.path.join(self.args.result_path, f'{self.args.exp_name}.pt')
        torch.save(self.root.global_model.state_dict(), model_path)
