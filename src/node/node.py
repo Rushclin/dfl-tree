@@ -11,22 +11,18 @@ class Node:
     Class representing a node in the binary tree for V-Tree Learning.
     Each node can act as a client or server during a training round.
     """
-    def __init__(self, node_id, data_size, args, node_dataset, model, test_dataset):
-        self.node_id = node_id  # Unique ID for the node
-        self.data_size = data_size  # Size of local data
-        self.model = model  # Local model on the node
-        self.left = None  # Left child
-        self.right = None  # Right child
-        self.parent = None  # Parent node
-
-        # Additional attributes for training and logging
+    def __init__(self, node_id, args, node_dataset, model, test_dataset):
+        self.node_id = node_id  
         self.args = args
-        # self.writer = writer
+    
+        self.data_size = len(node_dataset)  
+        self.model = model  
+        self.left = None  
+        self.right = None  
+        self.parent = None  
+
         self.node_dataset = node_dataset
         self.test_dataset = test_dataset
-        # self.opt_kwargs = dict(lr=self.args.lr, momentum=self.args.beta1)
-        # self.curr_lr = self.args.lr
-        self.results = defaultdict(dict)
         self.global_model = model
         
         self.train_loader = self._create_dataloader(self.node_dataset, shuffle=self.args.shuffle)
@@ -35,45 +31,46 @@ class Node:
         self.optim = torch.optim.__dict__[self.args.optimizer]
         self.criterion = torch.nn.__dict__[self.args.criterion]
         
+        self.results = defaultdict(dict)
+        
+        
     def update(self):
-        update_sizes = self.train()
-        _ = self.evaluate()
+        _ = self._train()
+        _ = self._evaluate()
 
-    def train(self):
+    def _train(self):
         """
         Perform local training on the node using its dataset.
         Simulates model updates on local data.
         """
                 
-        mm = MetricManager(self.args.eval_metrics)  # Track metrics such as loss and accuracy
+        mm = MetricManager(self.args.eval_metrics)  
         self.model.train()
         self.model.to(self.args.device)
 
-        # Initialize optimizer with refined arguments
         optimizer = self.optim(self.model.parameters(), **self._refine_optim_args(self.args))
         
-        for e in range(self.args.E):  # Loop through epochs
+        for e in range(self.args.E):  
             logger.info(f'[EPOCH] Round {e} / {self.args.E}')            
             
-            for inputs, targets in self.train_loader:  # Iterate through training data
+            for inputs, targets in self.train_loader:  
                 inputs, targets = inputs.to(self.args.device), targets.to(self.args.device)
 
-                outputs = self.model(inputs)  # Forward pass
-                loss = self.criterion()(outputs, targets)  # Compute loss
+                outputs = self.model(inputs)  
+                loss = self.criterion()(outputs, targets) 
 
                 for param in self.model.parameters():
-                    param.grad = None  # Zero gradients manually for each parameter
-                loss.backward()  # Backward pass
+                    param.grad = None  
+                loss.backward()  
                 if self.args.max_grad_norm > 0:
-                    # Clip gradients to avoid exploding gradients
                     torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.args.max_grad_norm)
-                optimizer.step()  # Update the model's parameters
+                optimizer.step()  
 
-                mm.track(loss.item(), outputs, targets)  # Track loss and output metrics
+                mm.track(loss.item(), outputs, targets)  
 
-            mm.aggregate(len(self.node_dataset), e + 1)  # Aggregate metrics for the epoch
+            mm.aggregate(len(self.node_dataset), e + 1)  
 
-        self.model.to('cpu')  # Move model back to CPU after training
+        self.model.to('cpu')  
         return mm.results
         
     @torch.inference_mode()
@@ -86,20 +83,19 @@ class Node:
         """
         
         mm = MetricManager(self.args.eval_metrics)
-        self.model.eval()  # Set the model to evaluation mode
+        self.model.eval()  
         self.model.to(self.args.device)
 
-        # Evaluate the model on the test set
         for inputs, targets in self.test_loader:
             inputs, targets = inputs.to(self.args.device), targets.to(self.args.device)
 
             outputs = self.model(inputs)
-            loss = self.criterion()(outputs, targets)  # Compute loss
+            loss = self.criterion()(outputs, targets)  
 
-            mm.track(loss.item(), outputs, targets)  # Track evaluation metrics
+            mm.track(loss.item(), outputs, targets)  
         else:
-            self.model.to('cpu')  # Move model back to CPU after evaluation
-            mm.aggregate(len(self.test_set))  # Aggregate evaluation metrics
+            self.model.to('cpu')  
+            mm.aggregate(len(self.test_set))  
         result = mm.results
         
         node_log_string = f'[{self.args.algorithm.upper()}] [{self.args.dataset.upper()}] [Tour: {str(self.round).zfill(4)}] [EVALUATE] [NODE] '
@@ -119,7 +115,6 @@ class Node:
         total_data_points = self.data_size
         aggregated_model = {key: torch.zeros_like(param) for key, param in self.global_model.state_dict().items()}
 
-        # Aggregate contributions from child nodes
         for child in [self.left, self.right]:
             if child is not None: 
                 child_model = child.aggregate_models()
@@ -137,10 +132,9 @@ class Node:
 
         self.model.load_state_dict(aggregated_model)
         logger.info(f"Node {self.node_id} completed aggregation.")
-        # return aggregated_model
 
     @torch.no_grad()
-    def evaluate(self):
+    def _evaluate(self):
         """
         Centrally evaluate the global model on the server dataset.
         Tracks evaluation metrics such as loss and accuracy.
@@ -151,28 +145,24 @@ class Node:
         self.global_model.to(self.args.device)
         self.global_model.eval()
         
-        with torch.no_grad():
-            for inputs, targets in self.test_loader:
-                inputs, targets = inputs.to(self.args.device), targets.to(self.args.device)
-                outputs = self.global_model(inputs)
-                loss = torch.nn.__dict__[self.args.criterion]()(outputs, targets)
-                # metrics['loss'] += loss.item()
-                # metrics['accuracy'] += (outputs.argmax(dim=1) == targets).float().mean().item()
-                mm.track(loss.item(), outputs, targets)
-            else:
-                self.global_model.to('cpu')
-                mm.aggregate(len(self.test_dataset))
-        
-            result = mm.results
-            server_log_string = f'[{self.args.dataset.upper()}] [EVALUATE] [NODE] '
+        for inputs, targets in self.test_loader:
+            inputs, targets = inputs.to(self.args.device), targets.to(self.args.device)
+            outputs = self.global_model(inputs)
+            loss = torch.nn.__dict__[self.args.criterion]()(outputs, targets)
+            mm.track(loss.item(), outputs, targets)
+        else:
+            self.global_model.to('cpu')
+            mm.aggregate(len(self.test_dataset))
+    
+        result = mm.results
+        server_log_string = f'[{self.args.dataset.upper()}] [EVALUATE] [NODE] '
 
-            loss = result['loss']
-            server_log_string += f'| loss: {loss:.4f} '
+        loss = result['loss']
+        server_log_string += f'| loss: {loss:.4f} '
 
-            for metric, value in result['metrics'].items():
-                server_log_string += f'| {metric}: {value:.4f} '
-            logger.info(server_log_string)
-            # logger.info(f"Evaluation Results (Node {self.node_id}): Loss: {metrics['loss']:.4f}, Accuracy: {metrics['accuracy']:.4f}")
+        for metric, value in result['metrics'].items():
+            server_log_string += f'| {metric}: {value:.4f} '
+        logger.info(server_log_string)
         return mm
     
     def _create_dataloader(self, dataset, shuffle):
@@ -210,8 +200,7 @@ def create_nodes(args, node_dataset,  model):
     
     train_node_dataset, test_node_dataset = node_dataset[1] 
     
-    nodes = [Node(node_id=i, data_size=len(node_dataset), 
-                  args=args, node_dataset=train_node_dataset, 
+    nodes = [Node(node_id=i, args=args, node_dataset=train_node_dataset, 
                   model=model, test_dataset=test_node_dataset) for i in range(args.K)]
     
     logger.info(f"Create {args.K} nodes")
