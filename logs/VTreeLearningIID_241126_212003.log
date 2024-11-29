@@ -1,0 +1,14 @@
+[INFO] (2024/11/26 09:20:03 PM) [WELCOME] Initialisation...
+[INFO] (2024/11/26 09:20:03 PM) VTree Learning, DFL.
+[INFO] (2024/11/26 09:20:04 PM) [SEED] : 42!
+[INFO] (2024/11/26 09:20:04 PM) [LOAD] : TwoCNN
+[INFO] (2024/11/26 09:20:09 PM) [SPLIT] Performed IID split for 20 nodes.
+[INFO] (2024/11/26 09:20:10 PM) [SIMULATION] ...Create a node dataset...  80% |################    | [16    /20]
+[INFO] (2024/11/26 09:20:10 PM) [SIMULATION] ...Create a node dataset... 100% |####################| [20    /20]
+[INFO] (2024/11/26 09:20:10 PM) End create a nodes dataset
+[INFO] (2024/11/26 09:20:10 PM) [MNIST]  ...Creation node ... 100% |####################| [20    /20]
+[INFO] (2024/11/26 09:20:10 PM) Create 20 nodes
+[INFO] (2024/11/26 09:20:10 PM) Building the binary tree...
+[INFO] (2024/11/26 09:20:10 PM) Reorganizing tree to make Node 3 the new root.
+[INFO] (2024/11/26 09:20:10 PM) Broadcasting model from Node 3 to all nodes.
+[INFO] (2024/11/26 09:21:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.1902 | acc1: 0.9408 | precision: 0.9423 | f1: 0.9409 | recall: 0.9408 

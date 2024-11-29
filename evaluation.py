@@ -46,6 +46,23 @@ def evaluate_model(args, model, test_loader):
 
     logger.info(f"Accuracy: {accuracy:.2f}%")
     logger.info(f"Average Loss: {avg_loss:.4f}")
+    
+    
+    
+@hydra.main(version_base=None, config_path="conf", config_name="config")
+def test(args : DictConfig) -> None:
+    model = load_experiment_model(args)
+    
+    validation_img_paths = [
+        "./test/1/img_1755.jpg",
+    ]
+     
+     
 
 if __name__ == "__main__":
-    main()
+    test()
+   
+    
+    
+    
+    

@@ -11,3 +11,1618 @@
 [INFO] (2024/11/26 03:29:28 PM) Building the binary tree...
 [INFO] (2024/11/26 03:29:28 PM) Reorganizing tree to make Node 3 the new root.
 [INFO] (2024/11/26 03:29:28 PM) Broadcasting model from Node 3 to all nodes.
+[INFO] (2024/11/26 03:29:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.1902 | acc1: 0.9408 | precision: 0.9423 | f1: 0.9409 | recall: 0.9408 
+[INFO] (2024/11/26 03:30:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.1156 | acc1: 0.9617 | precision: 0.9622 | f1: 0.9617 | recall: 0.9617 
+[INFO] (2024/11/26 03:30:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.1085 | acc1: 0.9622 | precision: 0.9632 | f1: 0.9623 | recall: 0.9622 
+[INFO] (2024/11/26 03:31:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0859 | acc1: 0.9708 | precision: 0.9714 | f1: 0.9708 | recall: 0.9708 
+[INFO] (2024/11/26 03:31:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0669 | acc1: 0.9799 | precision: 0.9800 | f1: 0.9799 | recall: 0.9799 
+[INFO] (2024/11/26 03:31:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0743 | acc1: 0.9752 | precision: 0.9758 | f1: 0.9752 | recall: 0.9752 
+[INFO] (2024/11/26 03:32:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0603 | acc1: 0.9805 | precision: 0.9807 | f1: 0.9804 | recall: 0.9805 
+[INFO] (2024/11/26 03:32:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0511 | acc1: 0.9823 | precision: 0.9824 | f1: 0.9823 | recall: 0.9823 
+[INFO] (2024/11/26 03:33:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0451 | acc1: 0.9847 | precision: 0.9848 | f1: 0.9847 | recall: 0.9847 
+[INFO] (2024/11/26 03:33:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0467 | acc1: 0.9843 | precision: 0.9843 | f1: 0.9843 | recall: 0.9843 
+[INFO] (2024/11/26 03:33:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0478 | acc1: 0.9841 | precision: 0.9842 | f1: 0.9841 | recall: 0.9841 
+[INFO] (2024/11/26 03:34:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0434 | acc1: 0.9859 | precision: 0.9859 | f1: 0.9859 | recall: 0.9859 
+[INFO] (2024/11/26 03:34:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0449 | acc1: 0.9849 | precision: 0.9851 | f1: 0.9849 | recall: 0.9849 
+[INFO] (2024/11/26 03:35:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0423 | acc1: 0.9854 | precision: 0.9855 | f1: 0.9854 | recall: 0.9854 
+[INFO] (2024/11/26 03:35:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0404 | acc1: 0.9874 | precision: 0.9874 | f1: 0.9874 | recall: 0.9874 
+[INFO] (2024/11/26 03:35:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9890 | precision: 0.9890 | f1: 0.9890 | recall: 0.9890 
+[INFO] (2024/11/26 03:36:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0330 | acc1: 0.9887 | precision: 0.9887 | f1: 0.9887 | recall: 0.9887 
+[INFO] (2024/11/26 03:36:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0395 | acc1: 0.9868 | precision: 0.9869 | f1: 0.9868 | recall: 0.9868 
+[INFO] (2024/11/26 03:36:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9883 | precision: 0.9884 | f1: 0.9883 | recall: 0.9883 
+[INFO] (2024/11/26 03:37:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0304 | acc1: 0.9904 | precision: 0.9904 | f1: 0.9904 | recall: 0.9904 
+[INFO] (2024/11/26 03:37:15 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 03:37:15 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 03:37:15 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 03:37:15 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 03:37:15 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 03:37:15 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 03:37:15 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 03:37:15 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 03:37:15 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 03:37:15 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 03:37:15 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 03:37:15 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 03:37:15 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 03:37:15 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 03:37:22 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0304 | acc1: 0.9904 | precision: 0.9904 | f1: 0.9904 | recall: 0.9904 
+[INFO] (2024/11/26 03:37:22 PM) Reorganizing tree to make Node 0 the new root.
+[INFO] (2024/11/26 03:37:22 PM) Broadcasting model from Node 0 to all nodes.
+[INFO] (2024/11/26 03:37:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9877 | precision: 0.9877 | f1: 0.9877 | recall: 0.9877 
+[INFO] (2024/11/26 03:38:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9876 | precision: 0.9877 | f1: 0.9876 | recall: 0.9876 
+[INFO] (2024/11/26 03:38:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0310 | acc1: 0.9898 | precision: 0.9898 | f1: 0.9898 | recall: 0.9898 
+[INFO] (2024/11/26 03:38:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9896 | precision: 0.9896 | f1: 0.9896 | recall: 0.9896 
+[INFO] (2024/11/26 03:39:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9902 | precision: 0.9902 | f1: 0.9902 | recall: 0.9902 
+[INFO] (2024/11/26 03:39:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0452 | acc1: 0.9852 | precision: 0.9856 | f1: 0.9853 | recall: 0.9852 
+[INFO] (2024/11/26 03:39:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0310 | acc1: 0.9891 | precision: 0.9891 | f1: 0.9891 | recall: 0.9891 
+[INFO] (2024/11/26 03:40:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0287 | acc1: 0.9904 | precision: 0.9904 | f1: 0.9904 | recall: 0.9904 
+[INFO] (2024/11/26 03:40:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0291 | acc1: 0.9913 | precision: 0.9913 | f1: 0.9913 | recall: 0.9913 
+[INFO] (2024/11/26 03:41:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0308 | acc1: 0.9899 | precision: 0.9899 | f1: 0.9899 | recall: 0.9899 
+[INFO] (2024/11/26 03:41:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0267 | acc1: 0.9904 | precision: 0.9904 | f1: 0.9904 | recall: 0.9904 
+[INFO] (2024/11/26 03:41:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0293 | acc1: 0.9907 | precision: 0.9907 | f1: 0.9907 | recall: 0.9907 
+[INFO] (2024/11/26 03:42:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0300 | acc1: 0.9906 | precision: 0.9906 | f1: 0.9906 | recall: 0.9906 
+[INFO] (2024/11/26 03:42:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0314 | acc1: 0.9902 | precision: 0.9902 | f1: 0.9902 | recall: 0.9902 
+[INFO] (2024/11/26 03:42:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0334 | acc1: 0.9896 | precision: 0.9896 | f1: 0.9896 | recall: 0.9896 
+[INFO] (2024/11/26 03:43:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0289 | acc1: 0.9914 | precision: 0.9914 | f1: 0.9914 | recall: 0.9914 
+[INFO] (2024/11/26 03:43:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0309 | acc1: 0.9891 | precision: 0.9892 | f1: 0.9891 | recall: 0.9891 
+[INFO] (2024/11/26 03:43:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0293 | acc1: 0.9909 | precision: 0.9909 | f1: 0.9909 | recall: 0.9909 
+[INFO] (2024/11/26 03:44:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0298 | acc1: 0.9916 | precision: 0.9916 | f1: 0.9916 | recall: 0.9916 
+[INFO] (2024/11/26 03:44:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0257 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 0...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 1...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 03:44:40 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 03:44:40 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 03:44:40 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 03:44:40 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 4...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 9...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 03:44:40 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 9 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 03:44:40 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 4 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 1 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 2...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 5...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 03:44:40 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 03:44:40 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 5 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 03:44:40 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 03:44:40 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 2 completed aggregation.
+[INFO] (2024/11/26 03:44:40 PM) Node 0 completed aggregation.
+[INFO] (2024/11/26 03:44:46 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0257 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 03:44:46 PM) Reorganizing tree to make Node 8 the new root.
+[INFO] (2024/11/26 03:44:46 PM) Broadcasting model from Node 8 to all nodes.
+[INFO] (2024/11/26 03:45:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0298 | acc1: 0.9902 | precision: 0.9902 | f1: 0.9902 | recall: 0.9902 
+[INFO] (2024/11/26 03:45:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0344 | acc1: 0.9898 | precision: 0.9899 | f1: 0.9898 | recall: 0.9898 
+[INFO] (2024/11/26 03:45:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0288 | acc1: 0.9914 | precision: 0.9914 | f1: 0.9914 | recall: 0.9914 
+[INFO] (2024/11/26 03:46:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0305 | acc1: 0.9913 | precision: 0.9913 | f1: 0.9913 | recall: 0.9913 
+[INFO] (2024/11/26 03:46:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0299 | acc1: 0.9907 | precision: 0.9907 | f1: 0.9907 | recall: 0.9907 
+[INFO] (2024/11/26 03:46:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0260 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 03:47:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0266 | acc1: 0.9915 | precision: 0.9915 | f1: 0.9915 | recall: 0.9915 
+[INFO] (2024/11/26 03:47:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0276 | acc1: 0.9908 | precision: 0.9908 | f1: 0.9908 | recall: 0.9908 
+[INFO] (2024/11/26 03:48:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0268 | acc1: 0.9916 | precision: 0.9916 | f1: 0.9916 | recall: 0.9916 
+[INFO] (2024/11/26 03:48:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0273 | acc1: 0.9912 | precision: 0.9912 | f1: 0.9912 | recall: 0.9912 
+[INFO] (2024/11/26 03:48:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0241 | acc1: 0.9918 | precision: 0.9918 | f1: 0.9918 | recall: 0.9918 
+[INFO] (2024/11/26 03:49:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0286 | acc1: 0.9905 | precision: 0.9905 | f1: 0.9905 | recall: 0.9905 
+[INFO] (2024/11/26 03:49:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0290 | acc1: 0.9908 | precision: 0.9908 | f1: 0.9908 | recall: 0.9908 
+[INFO] (2024/11/26 03:49:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0294 | acc1: 0.9907 | precision: 0.9907 | f1: 0.9907 | recall: 0.9907 
+[INFO] (2024/11/26 03:50:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0299 | acc1: 0.9911 | precision: 0.9911 | f1: 0.9911 | recall: 0.9911 
+[INFO] (2024/11/26 03:50:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0290 | acc1: 0.9918 | precision: 0.9918 | f1: 0.9918 | recall: 0.9918 
+[INFO] (2024/11/26 03:50:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0289 | acc1: 0.9909 | precision: 0.9909 | f1: 0.9909 | recall: 0.9909 
+[INFO] (2024/11/26 03:51:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0287 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 03:51:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0280 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 03:52:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0246 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 03:52:04 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 03:52:04 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 03:52:04 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 03:52:04 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 03:52:04 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 03:52:04 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 03:52:10 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0246 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 03:52:10 PM) Reorganizing tree to make Node 7 the new root.
+[INFO] (2024/11/26 03:52:10 PM) Broadcasting model from Node 7 to all nodes.
+[INFO] (2024/11/26 03:52:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0309 | acc1: 0.9906 | precision: 0.9906 | f1: 0.9906 | recall: 0.9906 
+[INFO] (2024/11/26 03:52:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0332 | acc1: 0.9904 | precision: 0.9904 | f1: 0.9904 | recall: 0.9904 
+[INFO] (2024/11/26 03:53:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0274 | acc1: 0.9916 | precision: 0.9916 | f1: 0.9916 | recall: 0.9916 
+[INFO] (2024/11/26 03:53:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0308 | acc1: 0.9910 | precision: 0.9910 | f1: 0.9910 | recall: 0.9910 
+[INFO] (2024/11/26 03:54:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0309 | acc1: 0.9906 | precision: 0.9906 | f1: 0.9906 | recall: 0.9906 
+[INFO] (2024/11/26 03:54:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0259 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 03:54:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0258 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 03:55:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0277 | acc1: 0.9911 | precision: 0.9911 | f1: 0.9911 | recall: 0.9911 
+[INFO] (2024/11/26 03:55:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0262 | acc1: 0.9916 | precision: 0.9916 | f1: 0.9916 | recall: 0.9916 
+[INFO] (2024/11/26 03:55:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0263 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 03:56:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0254 | acc1: 0.9913 | precision: 0.9913 | f1: 0.9913 | recall: 0.9913 
+[INFO] (2024/11/26 03:56:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0255 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 03:56:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0282 | acc1: 0.9908 | precision: 0.9908 | f1: 0.9908 | recall: 0.9908 
+[INFO] (2024/11/26 03:57:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0290 | acc1: 0.9916 | precision: 0.9916 | f1: 0.9916 | recall: 0.9916 
+[INFO] (2024/11/26 03:57:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0286 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 03:58:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0288 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 03:58:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0302 | acc1: 0.9910 | precision: 0.9910 | f1: 0.9910 | recall: 0.9910 
+[INFO] (2024/11/26 03:58:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0304 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 03:59:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0293 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 03:59:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0265 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 03:59:27 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 03:59:27 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 03:59:27 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 03:59:27 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 03:59:27 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 03:59:27 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 03:59:32 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0265 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 03:59:32 PM) Reorganizing tree to make Node 7 the new root.
+[INFO] (2024/11/26 03:59:32 PM) Broadcasting model from Node 7 to all nodes.
+[INFO] (2024/11/26 03:59:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0296 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:00:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0323 | acc1: 0.9911 | precision: 0.9911 | f1: 0.9911 | recall: 0.9911 
+[INFO] (2024/11/26 04:00:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0265 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 04:01:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0305 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 04:01:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0304 | acc1: 0.9907 | precision: 0.9907 | f1: 0.9907 | recall: 0.9907 
+[INFO] (2024/11/26 04:01:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0283 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:02:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0270 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:02:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0271 | acc1: 0.9918 | precision: 0.9918 | f1: 0.9918 | recall: 0.9918 
+[INFO] (2024/11/26 04:02:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0246 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:03:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0263 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:03:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0247 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:03:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0273 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:04:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0313 | acc1: 0.9904 | precision: 0.9904 | f1: 0.9904 | recall: 0.9904 
+[INFO] (2024/11/26 04:04:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0305 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:04:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0276 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:05:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0287 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:05:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0303 | acc1: 0.9913 | precision: 0.9914 | f1: 0.9913 | recall: 0.9913 
+[INFO] (2024/11/26 04:06:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0304 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 04:06:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0274 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 04:06:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0277 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 04:06:48 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 04:06:48 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 04:06:48 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 04:06:48 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 04:06:48 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 04:06:48 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 04:06:54 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0277 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 04:06:54 PM) Reorganizing tree to make Node 4 the new root.
+[INFO] (2024/11/26 04:06:54 PM) Broadcasting model from Node 4 to all nodes.
+[INFO] (2024/11/26 04:07:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0296 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:07:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0322 | acc1: 0.9914 | precision: 0.9914 | f1: 0.9914 | recall: 0.9914 
+[INFO] (2024/11/26 04:08:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0277 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:08:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0310 | acc1: 0.9913 | precision: 0.9913 | f1: 0.9913 | recall: 0.9913 
+[INFO] (2024/11/26 04:08:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0312 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:09:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0271 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:09:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0258 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:09:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0271 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:10:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0249 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 04:10:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0235 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:10:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0230 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 04:11:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0267 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:11:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9910 | precision: 0.9910 | f1: 0.9910 | recall: 0.9910 
+[INFO] (2024/11/26 04:12:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0300 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 04:12:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0281 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 04:12:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0301 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:13:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0299 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 04:13:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:13:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0302 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:14:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0264 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:14:10 PM) Aggregating models on Node 4...
+[INFO] (2024/11/26 04:14:10 PM) Aggregating models on Node 9...
+[INFO] (2024/11/26 04:14:10 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 04:14:10 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 04:14:10 PM) Node 9 completed aggregation.
+[INFO] (2024/11/26 04:14:10 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 04:14:10 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 04:14:10 PM) Node 4 completed aggregation.
+[INFO] (2024/11/26 04:14:16 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0264 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:14:16 PM) Reorganizing tree to make Node 3 the new root.
+[INFO] (2024/11/26 04:14:16 PM) Broadcasting model from Node 3 to all nodes.
+[INFO] (2024/11/26 04:14:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0318 | acc1: 0.9914 | precision: 0.9914 | f1: 0.9914 | recall: 0.9914 
+[INFO] (2024/11/26 04:14:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0326 | acc1: 0.9915 | precision: 0.9915 | f1: 0.9915 | recall: 0.9915 
+[INFO] (2024/11/26 04:15:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0267 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 04:15:42 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0309 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:16:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0308 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:16:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0300 | acc1: 0.9913 | precision: 0.9913 | f1: 0.9913 | recall: 0.9913 
+[INFO] (2024/11/26 04:16:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0283 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:17:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0284 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:17:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0266 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:17:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0264 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:18:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0249 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:18:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0278 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 04:18:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0329 | acc1: 0.9913 | precision: 0.9913 | f1: 0.9913 | recall: 0.9913 
+[INFO] (2024/11/26 04:19:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 04:19:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0296 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 04:20:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0309 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 04:20:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0308 | acc1: 0.9918 | precision: 0.9918 | f1: 0.9918 | recall: 0.9918 
+[INFO] (2024/11/26 04:20:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0320 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 04:21:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0305 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 04:21:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0257 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 04:21:28 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 04:21:28 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 04:21:28 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 04:21:28 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 04:21:28 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 04:21:28 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 04:21:28 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 04:21:28 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 04:21:28 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 04:21:28 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 04:21:28 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 04:21:28 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 04:21:28 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 04:21:28 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 04:21:33 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0257 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 04:21:33 PM) Reorganizing tree to make Node 17 the new root.
+[INFO] (2024/11/26 04:21:33 PM) Broadcasting model from Node 17 to all nodes.
+[INFO] (2024/11/26 04:21:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0279 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:22:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 04:22:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0283 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:23:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0305 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:23:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0324 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:23:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0292 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 04:24:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0278 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 04:24:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0295 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 04:24:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0251 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:25:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0251 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 04:25:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0244 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 04:25:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0289 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:26:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0315 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:26:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0322 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 04:26:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0300 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:27:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0304 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:27:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0324 | acc1: 0.9914 | precision: 0.9914 | f1: 0.9914 | recall: 0.9914 
+[INFO] (2024/11/26 04:28:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0307 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:28:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0322 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 04:28:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0299 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:28:46 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 04:28:46 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 04:28:52 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0299 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:28:52 PM) Reorganizing tree to make Node 2 the new root.
+[INFO] (2024/11/26 04:28:52 PM) Broadcasting model from Node 2 to all nodes.
+[INFO] (2024/11/26 04:29:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0301 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:29:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0342 | acc1: 0.9918 | precision: 0.9918 | f1: 0.9918 | recall: 0.9918 
+[INFO] (2024/11/26 04:29:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0287 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:30:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0318 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:30:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0347 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 04:31:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0303 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:31:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0275 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:31:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0271 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:32:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0265 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:32:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0269 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:32:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0259 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 04:33:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0268 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 04:33:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0317 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:33:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0327 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:34:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0287 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 04:34:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0308 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:35:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0306 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 04:35:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0345 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:35:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0328 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:36:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0312 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:36:04 PM) Aggregating models on Node 2...
+[INFO] (2024/11/26 04:36:04 PM) Aggregating models on Node 5...
+[INFO] (2024/11/26 04:36:04 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 04:36:04 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 04:36:04 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 04:36:04 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 04:36:04 PM) Node 5 completed aggregation.
+[INFO] (2024/11/26 04:36:04 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 04:36:04 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 04:36:04 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 04:36:04 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 04:36:04 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 04:36:04 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 04:36:04 PM) Node 2 completed aggregation.
+[INFO] (2024/11/26 04:36:10 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0312 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:36:10 PM) Reorganizing tree to make Node 18 the new root.
+[INFO] (2024/11/26 04:36:10 PM) Broadcasting model from Node 18 to all nodes.
+[INFO] (2024/11/26 04:36:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0327 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:36:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0353 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:37:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0299 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:37:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0322 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:37:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0347 | acc1: 0.9918 | precision: 0.9918 | f1: 0.9918 | recall: 0.9918 
+[INFO] (2024/11/26 04:38:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0318 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:38:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0301 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:39:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0296 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 04:39:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0290 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:39:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0281 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:40:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0272 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:40:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0296 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:40:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0333 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:41:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0341 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:41:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0299 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 04:41:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0308 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 04:42:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0347 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:42:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9916 | precision: 0.9916 | f1: 0.9916 | recall: 0.9916 
+[INFO] (2024/11/26 04:42:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0343 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:43:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0295 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 04:43:21 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 04:43:21 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 04:43:27 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0295 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 04:43:27 PM) Reorganizing tree to make Node 13 the new root.
+[INFO] (2024/11/26 04:43:27 PM) Broadcasting model from Node 13 to all nodes.
+[INFO] (2024/11/26 04:43:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0312 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 04:44:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:44:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0309 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:44:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 04:45:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:45:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0346 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:45:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0314 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 04:46:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0300 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:46:42 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0295 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:47:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0306 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 04:47:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0289 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:47:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0295 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:48:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9916 | precision: 0.9916 | f1: 0.9916 | recall: 0.9916 
+[INFO] (2024/11/26 04:48:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0335 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:48:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0300 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:49:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0328 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:49:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0320 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 04:49:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 04:50:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0324 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:50:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0287 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 04:50:34 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 04:50:34 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 04:50:40 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0287 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 04:50:40 PM) Reorganizing tree to make Node 1 the new root.
+[INFO] (2024/11/26 04:50:40 PM) Broadcasting model from Node 1 to all nodes.
+[INFO] (2024/11/26 04:51:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0305 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:51:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0329 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 04:51:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0299 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:52:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:52:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 04:52:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0352 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:53:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0304 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 04:53:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0283 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:53:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0281 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 04:54:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0295 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:54:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0274 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 04:54:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0295 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:55:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 04:55:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0344 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 04:55:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0323 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 04:56:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0329 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:56:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0337 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:56:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0362 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 04:57:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0350 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 04:57:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0296 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 1...
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 04:57:37 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 04:57:37 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 04:57:37 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 04:57:37 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 4...
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 9...
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 04:57:37 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Node 9 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 04:57:37 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Node 4 completed aggregation.
+[INFO] (2024/11/26 04:57:37 PM) Node 1 completed aggregation.
+[INFO] (2024/11/26 04:57:43 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0296 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 04:57:43 PM) Reorganizing tree to make Node 0 the new root.
+[INFO] (2024/11/26 04:57:43 PM) Broadcasting model from Node 0 to all nodes.
+[INFO] (2024/11/26 04:58:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0314 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 04:58:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:58:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0328 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 04:59:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 04:59:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 04:59:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 05:00:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0345 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 05:00:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 05:00:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0327 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 05:01:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0306 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:01:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0289 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:01:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0316 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 05:02:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 05:02:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9918 | precision: 0.9918 | f1: 0.9918 | recall: 0.9918 
+[INFO] (2024/11/26 05:02:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0328 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:03:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0332 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 05:03:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0327 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:03:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 05:04:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:04:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0306 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 05:04:34 PM) Aggregating models on Node 0...
+[INFO] (2024/11/26 05:04:34 PM) Aggregating models on Node 1...
+[INFO] (2024/11/26 05:04:34 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 05:04:34 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 05:04:34 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 05:04:34 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 05:04:34 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 05:04:34 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 05:04:35 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 05:04:35 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 4...
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 9...
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 05:04:35 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 9 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 05:04:35 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 4 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 1 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 2...
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 5...
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 05:04:35 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 05:04:35 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 5 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 05:04:35 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 05:04:35 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 2 completed aggregation.
+[INFO] (2024/11/26 05:04:35 PM) Node 0 completed aggregation.
+[INFO] (2024/11/26 05:04:40 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0306 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 05:04:40 PM) Reorganizing tree to make Node 2 the new root.
+[INFO] (2024/11/26 05:04:40 PM) Broadcasting model from Node 2 to all nodes.
+[INFO] (2024/11/26 05:05:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0309 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:05:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0337 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:05:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0332 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 05:06:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0317 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 05:06:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0350 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:06:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0346 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:07:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0308 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 05:07:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0312 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:07:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0307 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:08:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0296 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 05:08:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0293 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:08:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0318 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:09:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0339 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:09:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 05:09:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0323 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:10:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0337 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:10:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0347 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 05:10:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 05:11:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 05:11:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0315 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:11:30 PM) Aggregating models on Node 2...
+[INFO] (2024/11/26 05:11:30 PM) Aggregating models on Node 5...
+[INFO] (2024/11/26 05:11:30 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 05:11:30 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 05:11:30 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 05:11:30 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 05:11:30 PM) Node 5 completed aggregation.
+[INFO] (2024/11/26 05:11:30 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 05:11:30 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 05:11:30 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 05:11:30 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 05:11:30 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 05:11:30 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 05:11:30 PM) Node 2 completed aggregation.
+[INFO] (2024/11/26 05:11:36 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0315 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:11:36 PM) Reorganizing tree to make Node 6 the new root.
+[INFO] (2024/11/26 05:11:36 PM) Broadcasting model from Node 6 to all nodes.
+[INFO] (2024/11/26 05:11:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0329 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 05:12:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:12:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0355 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:12:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:13:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0351 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:13:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9919 | precision: 0.9919 | f1: 0.9919 | recall: 0.9919 
+[INFO] (2024/11/26 05:14:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0332 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:14:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0310 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 05:14:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0321 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:15:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:15:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0317 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:15:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:16:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:16:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0394 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 05:16:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0322 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:17:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0335 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:17:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0339 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:17:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:18:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:18:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0341 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:18:35 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 05:18:35 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 05:18:35 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 05:18:35 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 05:18:35 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 05:18:35 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 05:18:41 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0341 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:18:41 PM) Reorganizing tree to make Node 7 the new root.
+[INFO] (2024/11/26 05:18:41 PM) Broadcasting model from Node 7 to all nodes.
+[INFO] (2024/11/26 05:19:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0343 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:19:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:19:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:20:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:20:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:20:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:21:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:21:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0337 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:21:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0321 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 05:22:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0323 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 05:22:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0322 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 05:22:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0361 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:23:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9918 | precision: 0.9918 | f1: 0.9918 | recall: 0.9918 
+[INFO] (2024/11/26 05:23:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:23:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0354 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:24:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0352 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:24:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0340 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:24:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 05:25:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:25:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0320 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 05:25:38 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 05:25:38 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 05:25:38 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 05:25:38 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 05:25:38 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 05:25:38 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 05:25:43 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0320 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 05:25:43 PM) Reorganizing tree to make Node 16 the new root.
+[INFO] (2024/11/26 05:25:43 PM) Broadcasting model from Node 16 to all nodes.
+[INFO] (2024/11/26 05:26:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0346 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:26:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:26:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0353 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:27:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0342 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:27:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0362 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:27:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:28:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0340 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 05:28:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0332 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 05:28:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0327 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:29:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0310 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 05:29:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0312 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 05:29:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0330 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:30:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0341 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:30:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:31:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0326 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:31:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0335 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:32:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0336 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:32:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:33:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 05:33:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 05:33:25 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 05:33:25 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 05:33:30 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0325 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 05:33:30 PM) Reorganizing tree to make Node 19 the new root.
+[INFO] (2024/11/26 05:33:30 PM) Broadcasting model from Node 19 to all nodes.
+[INFO] (2024/11/26 05:33:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0340 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:34:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:34:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0362 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:34:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0344 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:35:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:35:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:35:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0346 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 05:36:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:36:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:36:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0308 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 05:37:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0311 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 05:37:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:38:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0342 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:38:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0357 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:38:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 05:39:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0338 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 05:39:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:39:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 05:40:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:40:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0344 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 05:40:29 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 05:40:29 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 05:40:34 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0344 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 05:40:34 PM) Reorganizing tree to make Node 0 the new root.
+[INFO] (2024/11/26 05:40:34 PM) Broadcasting model from Node 0 to all nodes.
+[INFO] (2024/11/26 05:40:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0348 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:41:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:41:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:41:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0353 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:42:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0396 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:42:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:42:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:43:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0353 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:43:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0350 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 05:44:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0322 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 05:44:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0326 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 05:44:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0346 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:45:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0379 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:45:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0408 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 05:45:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0350 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:46:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0493 | acc1: 0.9915 | precision: 0.9915 | f1: 0.9915 | recall: 0.9915 
+[INFO] (2024/11/26 05:46:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0408 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 05:46:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0428 | acc1: 0.9912 | precision: 0.9912 | f1: 0.9912 | recall: 0.9912 
+[INFO] (2024/11/26 05:47:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0435 | acc1: 0.9914 | precision: 0.9914 | f1: 0.9914 | recall: 0.9914 
+[INFO] (2024/11/26 05:47:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0346 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 0...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 1...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 05:47:34 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 05:47:34 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 05:47:34 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 05:47:34 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 4...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 9...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 05:47:34 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 9 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 05:47:34 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 4 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 1 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 2...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 5...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 05:47:34 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 05:47:34 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 5 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 05:47:34 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 05:47:34 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 2 completed aggregation.
+[INFO] (2024/11/26 05:47:34 PM) Node 0 completed aggregation.
+[INFO] (2024/11/26 05:47:40 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0346 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:47:40 PM) Reorganizing tree to make Node 17 the new root.
+[INFO] (2024/11/26 05:47:40 PM) Broadcasting model from Node 17 to all nodes.
+[INFO] (2024/11/26 05:48:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:48:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0474 | acc1: 0.9910 | precision: 0.9911 | f1: 0.9910 | recall: 0.9910 
+[INFO] (2024/11/26 05:48:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9917 | precision: 0.9917 | f1: 0.9917 | recall: 0.9917 
+[INFO] (2024/11/26 05:49:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:49:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0428 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:49:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9916 | precision: 0.9916 | f1: 0.9916 | recall: 0.9916 
+[INFO] (2024/11/26 05:50:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0332 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 05:50:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0330 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:50:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0322 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:51:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0315 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:51:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:51:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0323 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 05:52:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0422 | acc1: 0.9913 | precision: 0.9913 | f1: 0.9913 | recall: 0.9913 
+[INFO] (2024/11/26 05:52:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0394 | acc1: 0.9914 | precision: 0.9914 | f1: 0.9914 | recall: 0.9914 
+[INFO] (2024/11/26 05:53:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 05:53:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 05:53:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9916 | precision: 0.9916 | f1: 0.9916 | recall: 0.9916 
+[INFO] (2024/11/26 05:54:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0409 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 05:54:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0396 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:54:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 05:54:50 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 05:54:50 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 05:54:56 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0325 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 05:54:56 PM) Reorganizing tree to make Node 6 the new root.
+[INFO] (2024/11/26 05:54:56 PM) Broadcasting model from Node 6 to all nodes.
+[INFO] (2024/11/26 05:55:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9920 | precision: 0.9920 | f1: 0.9920 | recall: 0.9920 
+[INFO] (2024/11/26 05:55:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:56:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0351 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 05:56:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:56:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 05:57:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0348 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 05:57:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 05:57:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0350 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 05:58:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0338 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 05:58:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0320 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 05:58:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0313 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 05:59:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0317 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 05:59:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 05:59:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9922 | precision: 0.9922 | f1: 0.9922 | recall: 0.9922 
+[INFO] (2024/11/26 06:00:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0337 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:00:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0342 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:01:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:01:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 06:01:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:02:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0342 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 06:02:06 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 06:02:06 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 06:02:06 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 06:02:06 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 06:02:06 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 06:02:06 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 06:02:11 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0342 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 06:02:11 PM) Reorganizing tree to make Node 17 the new root.
+[INFO] (2024/11/26 06:02:11 PM) Broadcasting model from Node 17 to all nodes.
+[INFO] (2024/11/26 06:02:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 06:02:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:03:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 06:03:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 06:03:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9923 | precision: 0.9923 | f1: 0.9923 | recall: 0.9923 
+[INFO] (2024/11/26 06:04:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 06:04:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0355 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:05:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0343 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:05:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0333 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:05:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0323 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:06:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0325 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:06:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0340 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:06:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:07:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9921 | precision: 0.9921 | f1: 0.9921 | recall: 0.9921 
+[INFO] (2024/11/26 06:07:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0341 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:07:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0340 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:08:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0329 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:08:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9924 | precision: 0.9924 | f1: 0.9924 | recall: 0.9924 
+[INFO] (2024/11/26 06:09:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0400 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 06:09:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0316 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:09:22 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 06:09:22 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 06:09:28 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0316 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:09:28 PM) Reorganizing tree to make Node 13 the new root.
+[INFO] (2024/11/26 06:09:28 PM) Broadcasting model from Node 13 to all nodes.
+[INFO] (2024/11/26 06:09:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 06:10:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0379 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:10:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 06:10:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:11:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 06:11:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 06:12:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0348 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 06:12:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0339 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:12:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0336 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 06:13:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0313 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:13:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0320 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:13:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0337 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 06:14:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0336 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:14:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 06:14:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0334 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:15:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0336 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:15:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0329 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:15:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 06:16:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:16:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0333 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:16:38 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 06:16:38 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 06:16:44 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0333 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:16:44 PM) Reorganizing tree to make Node 7 the new root.
+[INFO] (2024/11/26 06:16:44 PM) Broadcasting model from Node 7 to all nodes.
+[INFO] (2024/11/26 06:17:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0339 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:17:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 06:17:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 06:18:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0354 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:18:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:18:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:19:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 06:19:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0348 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:19:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0345 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:20:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0330 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:20:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0329 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:21:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0339 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 06:21:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0343 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:21:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 06:22:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0328 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 06:22:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:22:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 06:23:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0354 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:23:42 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:24:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0344 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:24:04 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 06:24:04 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 06:24:04 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 06:24:04 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 06:24:04 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 06:24:04 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 06:24:10 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0344 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:24:10 PM) Reorganizing tree to make Node 14 the new root.
+[INFO] (2024/11/26 06:24:10 PM) Broadcasting model from Node 14 to all nodes.
+[INFO] (2024/11/26 06:24:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0344 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:24:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:25:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 06:25:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:26:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:26:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:26:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0350 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:27:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0351 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:27:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0346 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:27:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0333 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 06:28:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0331 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:28:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0340 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:28:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0342 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:29:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:29:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0334 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:29:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0338 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:30:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0338 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:30:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0355 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:30:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:31:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0348 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:31:20 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 06:31:20 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 06:31:26 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0348 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:31:26 PM) Reorganizing tree to make Node 18 the new root.
+[INFO] (2024/11/26 06:31:26 PM) Broadcasting model from Node 18 to all nodes.
+[INFO] (2024/11/26 06:31:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0347 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:32:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:32:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 06:32:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0357 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:33:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:33:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:33:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:34:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:34:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:34:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0338 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 06:35:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0336 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:35:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0347 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:36:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0351 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:36:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:36:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0335 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:37:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0340 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:37:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0338 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:37:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:38:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:38:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0351 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:38:31 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 06:38:31 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 06:38:36 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0351 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:38:36 PM) Reorganizing tree to make Node 8 the new root.
+[INFO] (2024/11/26 06:38:36 PM) Broadcasting model from Node 8 to all nodes.
+[INFO] (2024/11/26 06:38:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:39:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:39:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 06:40:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:40:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:40:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:41:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:41:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:41:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0352 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:42:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0342 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 06:42:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0339 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:42:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:43:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0352 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:43:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:43:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0344 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:44:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0347 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:44:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:44:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0361 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:45:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:45:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0336 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 06:45:41 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 06:45:41 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 06:45:41 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 06:45:41 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 06:45:41 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 06:45:41 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 06:45:46 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0336 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 06:45:46 PM) Reorganizing tree to make Node 0 the new root.
+[INFO] (2024/11/26 06:45:46 PM) Broadcasting model from Node 0 to all nodes.
+[INFO] (2024/11/26 06:46:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0343 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:46:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:46:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 06:47:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:47:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:47:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9927 | precision: 0.9927 | f1: 0.9927 | recall: 0.9927 
+[INFO] (2024/11/26 06:48:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:48:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:48:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0354 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:49:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0346 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 06:49:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0344 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 06:50:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0361 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 06:50:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0361 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:50:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9925 | precision: 0.9925 | f1: 0.9925 | recall: 0.9925 
+[INFO] (2024/11/26 06:51:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0352 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:51:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:51:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0352 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:52:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:52:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0409 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:52:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 0...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 1...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 06:52:53 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 06:52:53 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 06:52:53 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 06:52:53 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 4...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 9...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 06:52:53 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 9 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 06:52:53 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 4 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 1 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 2...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 5...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 06:52:53 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 06:52:53 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 5 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 06:52:53 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 06:52:53 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 2 completed aggregation.
+[INFO] (2024/11/26 06:52:53 PM) Node 0 completed aggregation.
+[INFO] (2024/11/26 06:52:59 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0367 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:52:59 PM) Reorganizing tree to make Node 5 the new root.
+[INFO] (2024/11/26 06:52:59 PM) Broadcasting model from Node 5 to all nodes.
+[INFO] (2024/11/26 06:53:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:53:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:54:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 06:54:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:54:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:55:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 06:55:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:55:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:56:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:56:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0353 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 06:56:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:57:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0357 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 06:57:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 06:57:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 06:58:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0345 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:58:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:59:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 06:59:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0362 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 06:59:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:00:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:00:05 PM) Aggregating models on Node 5...
+[INFO] (2024/11/26 07:00:05 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 07:00:05 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 07:00:05 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 07:00:05 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 07:00:05 PM) Node 5 completed aggregation.
+[INFO] (2024/11/26 07:00:10 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0359 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:00:10 PM) Reorganizing tree to make Node 13 the new root.
+[INFO] (2024/11/26 07:00:10 PM) Broadcasting model from Node 13 to all nodes.
+[INFO] (2024/11/26 07:00:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0355 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:00:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:01:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 07:01:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:01:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:02:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 07:02:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:02:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:03:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0362 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:03:42 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0352 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 07:04:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0349 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 07:04:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:04:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:05:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:05:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0355 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:05:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:06:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0355 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:06:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:06:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:07:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0362 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:07:15 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 07:07:15 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 07:07:21 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0362 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:07:21 PM) Reorganizing tree to make Node 10 the new root.
+[INFO] (2024/11/26 07:07:21 PM) Broadcasting model from Node 10 to all nodes.
+[INFO] (2024/11/26 07:07:42 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:08:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:08:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 07:08:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 07:09:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:09:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:09:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:10:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:10:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:10:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 07:11:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0353 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:11:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0353 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:11:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:12:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:12:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0362 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:13:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:13:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0354 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:13:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:14:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:14:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:14:26 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 07:14:26 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 07:14:31 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0363 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:14:31 PM) Reorganizing tree to make Node 8 the new root.
+[INFO] (2024/11/26 07:14:31 PM) Broadcasting model from Node 8 to all nodes.
+[INFO] (2024/11/26 07:14:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:15:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:15:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9926 | precision: 0.9926 | f1: 0.9926 | recall: 0.9926 
+[INFO] (2024/11/26 07:15:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 07:16:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:16:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:17:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:17:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:17:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:18:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0356 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:18:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0353 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:18:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:19:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:19:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:19:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0361 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:20:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0362 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:20:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:20:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 07:21:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:21:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:21:39 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 07:21:39 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 07:21:39 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 07:21:39 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 07:21:39 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 07:21:39 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 07:21:45 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0365 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:21:45 PM) Reorganizing tree to make Node 4 the new root.
+[INFO] (2024/11/26 07:21:45 PM) Broadcasting model from Node 4 to all nodes.
+[INFO] (2024/11/26 07:22:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0361 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:22:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:22:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 07:23:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:23:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:23:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:24:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:24:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:24:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:25:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0361 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:25:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0358 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 07:25:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:26:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0362 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:26:42 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:27:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:27:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:27:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:28:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:28:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:28:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:28:50 PM) Aggregating models on Node 4...
+[INFO] (2024/11/26 07:28:50 PM) Aggregating models on Node 9...
+[INFO] (2024/11/26 07:28:50 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 07:28:50 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 07:28:50 PM) Node 9 completed aggregation.
+[INFO] (2024/11/26 07:28:50 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 07:28:50 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 07:28:51 PM) Node 4 completed aggregation.
+[INFO] (2024/11/26 07:28:56 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0367 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:28:56 PM) Reorganizing tree to make Node 6 the new root.
+[INFO] (2024/11/26 07:28:56 PM) Broadcasting model from Node 6 to all nodes.
+[INFO] (2024/11/26 07:29:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:29:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:30:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 07:30:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:30:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:31:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 07:31:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:31:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:32:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:32:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:32:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0360 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:33:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:33:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:33:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:34:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0357 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:34:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 07:34:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0357 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:35:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:35:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:36:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:36:01 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 07:36:01 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 07:36:01 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 07:36:01 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 07:36:01 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 07:36:01 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 07:36:07 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0364 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:36:07 PM) Reorganizing tree to make Node 10 the new root.
+[INFO] (2024/11/26 07:36:07 PM) Broadcasting model from Node 10 to all nodes.
+[INFO] (2024/11/26 07:36:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:36:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:37:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 07:37:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 07:37:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:38:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 07:38:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:38:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:39:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:39:42 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:40:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0361 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:40:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0359 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:40:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0363 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:41:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:41:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:41:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:42:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:42:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:42:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0394 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:43:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:43:14 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 07:43:14 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 07:43:20 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0371 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:43:20 PM) Reorganizing tree to make Node 3 the new root.
+[INFO] (2024/11/26 07:43:20 PM) Broadcasting model from Node 3 to all nodes.
+[INFO] (2024/11/26 07:43:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 07:44:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:44:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0379 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:44:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:45:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:45:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:45:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:46:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:46:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:46:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:47:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 07:47:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 07:47:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:48:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0393 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:48:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:48:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:49:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0364 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:49:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:50:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:50:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:50:22 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 07:50:22 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 07:50:22 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 07:50:22 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 07:50:22 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 07:50:22 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 07:50:22 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 07:50:22 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 07:50:22 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 07:50:22 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 07:50:22 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 07:50:22 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 07:50:22 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 07:50:22 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 07:50:27 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0370 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:50:27 PM) Reorganizing tree to make Node 2 the new root.
+[INFO] (2024/11/26 07:50:27 PM) Broadcasting model from Node 2 to all nodes.
+[INFO] (2024/11/26 07:50:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 07:51:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:51:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0379 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 07:51:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:52:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:52:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:52:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0379 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:53:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:53:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:53:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:54:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 07:54:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:55:01 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:55:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 07:55:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:56:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:56:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 07:56:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:57:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:57:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:57:28 PM) Aggregating models on Node 2...
+[INFO] (2024/11/26 07:57:28 PM) Aggregating models on Node 5...
+[INFO] (2024/11/26 07:57:28 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 07:57:28 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 07:57:28 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 07:57:28 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 07:57:28 PM) Node 5 completed aggregation.
+[INFO] (2024/11/26 07:57:28 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 07:57:28 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 07:57:28 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 07:57:28 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 07:57:28 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 07:57:28 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 07:57:28 PM) Node 2 completed aggregation.
+[INFO] (2024/11/26 07:57:33 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0370 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 07:57:33 PM) Reorganizing tree to make Node 12 the new root.
+[INFO] (2024/11/26 07:57:33 PM) Broadcasting model from Node 12 to all nodes.
+[INFO] (2024/11/26 07:57:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 07:58:15 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 07:58:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 07:59:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 07:59:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 07:59:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:00:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:00:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:01:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:02:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:02:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:03:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:04:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:04:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:05:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:05:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:05:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:06:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:06:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:07:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:07:16 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 08:07:16 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 08:07:24 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0371 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:07:24 PM) Reorganizing tree to make Node 3 the new root.
+[INFO] (2024/11/26 08:07:24 PM) Broadcasting model from Node 3 to all nodes.
+[INFO] (2024/11/26 08:07:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 08:08:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:08:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:09:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:09:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:10:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:10:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:11:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:11:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:12:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:12:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:13:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:13:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:14:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0400 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:14:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0365 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 08:15:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0367 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 08:15:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0366 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:16:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:16:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:17:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0370 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:17:25 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 08:17:25 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 08:17:25 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 08:17:25 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 08:17:25 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 08:17:25 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 08:17:25 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 08:17:25 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 08:17:25 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 08:17:25 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 08:17:25 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 08:17:25 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 08:17:25 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 08:17:25 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 08:17:33 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0370 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:17:33 PM) Reorganizing tree to make Node 11 the new root.
+[INFO] (2024/11/26 08:17:33 PM) Broadcasting model from Node 11 to all nodes.
+[INFO] (2024/11/26 08:18:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 08:18:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:19:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 08:19:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:20:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:20:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:20:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:21:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:21:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:22:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:22:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:23:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0368 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:23:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:24:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:24:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:25:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:25:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0369 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:26:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:26:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:27:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:27:18 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 08:27:19 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 08:27:26 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0373 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:27:26 PM) Reorganizing tree to make Node 11 the new root.
+[INFO] (2024/11/26 08:27:26 PM) Broadcasting model from Node 11 to all nodes.
+[INFO] (2024/11/26 08:27:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 08:28:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:28:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:29:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:29:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:30:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:30:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:31:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:31:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:32:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:32:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:33:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0371 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:33:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:34:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:34:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0379 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:35:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0379 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:35:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0372 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 08:36:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:36:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:36:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:36:50 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 08:36:50 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 08:36:55 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0375 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:36:55 PM) Reorganizing tree to make Node 19 the new root.
+[INFO] (2024/11/26 08:36:55 PM) Broadcasting model from Node 19 to all nodes.
+[INFO] (2024/11/26 08:37:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 08:37:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0379 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:38:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:38:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:38:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:39:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0393 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:39:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:40:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:40:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:41:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:41:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9936 | precision: 0.9936 | f1: 0.9936 | recall: 0.9936 
+[INFO] (2024/11/26 08:42:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0374 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:42:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:43:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0403 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:43:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:44:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:44:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0373 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:45:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 08:45:28 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:45:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:45:52 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 08:45:52 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 08:46:00 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0376 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:46:00 PM) Reorganizing tree to make Node 8 the new root.
+[INFO] (2024/11/26 08:46:00 PM) Broadcasting model from Node 8 to all nodes.
+[INFO] (2024/11/26 08:46:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0376 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 08:47:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:47:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:47:49 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:48:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:48:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0394 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:49:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:49:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:50:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:50:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0380 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:50:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:51:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0375 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:51:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:52:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0398 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:52:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:52:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:53:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:53:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:53:47 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0400 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:54:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:54:08 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 08:54:08 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 08:54:08 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 08:54:08 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 08:54:08 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 08:54:08 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 08:54:13 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0386 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:54:13 PM) Reorganizing tree to make Node 1 the new root.
+[INFO] (2024/11/26 08:54:13 PM) Broadcasting model from Node 1 to all nodes.
+[INFO] (2024/11/26 08:54:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 08:54:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:55:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:55:36 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 08:55:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:56:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0395 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 08:56:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:57:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:57:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:57:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:58:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0378 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 08:58:23 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 08:58:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:59:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0395 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 08:59:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 08:59:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:00:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 09:00:27 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 09:00:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:01:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 1...
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 09:01:09 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 09:01:09 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 09:01:09 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 09:01:09 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 4...
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 9...
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 19...
+[INFO] (2024/11/26 09:01:09 PM) Node 19 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Node 9 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Aggregating models on Node 10...
+[INFO] (2024/11/26 09:01:09 PM) Node 10 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Node 4 completed aggregation.
+[INFO] (2024/11/26 09:01:09 PM) Node 1 completed aggregation.
+[INFO] (2024/11/26 09:01:14 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0381 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:01:14 PM) Reorganizing tree to make Node 14 the new root.
+[INFO] (2024/11/26 09:01:14 PM) Broadcasting model from Node 14 to all nodes.
+[INFO] (2024/11/26 09:01:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 09:01:55 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:02:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:02:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:02:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:03:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0397 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:03:41 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:04:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:04:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:05:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:05:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:06:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0379 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:06:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:07:04 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0399 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:07:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:07:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:08:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0377 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:08:53 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:09:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:09:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:09:45 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 09:09:45 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 09:09:52 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0381 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:09:52 PM) Reorganizing tree to make Node 17 the new root.
+[INFO] (2024/11/26 09:09:52 PM) Broadcasting model from Node 17 to all nodes.
+[INFO] (2024/11/26 09:10:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 09:10:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:11:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:11:30 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:12:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:12:42 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0398 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:13:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:13:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:14:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:15:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:15:39 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:16:10 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:16:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:17:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0400 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:17:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:18:34 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:19:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 09:19:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:20:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:21:08 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:21:08 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 09:21:08 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 09:21:22 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0383 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:21:22 PM) Reorganizing tree to make Node 3 the new root.
+[INFO] (2024/11/26 09:21:22 PM) Broadcasting model from Node 3 to all nodes.
+[INFO] (2024/11/26 09:22:03 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 09:22:37 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:23:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:23:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:24:00 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0393 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:24:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0398 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:24:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:25:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:25:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:26:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:26:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:27:13 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0382 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:27:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:28:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0407 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 09:28:35 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:29:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:29:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0381 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:30:02 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:30:29 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:30:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:30:57 PM) Aggregating models on Node 3...
+[INFO] (2024/11/26 09:30:57 PM) Aggregating models on Node 7...
+[INFO] (2024/11/26 09:30:57 PM) Aggregating models on Node 15...
+[INFO] (2024/11/26 09:30:57 PM) Node 15 completed aggregation.
+[INFO] (2024/11/26 09:30:57 PM) Aggregating models on Node 16...
+[INFO] (2024/11/26 09:30:57 PM) Node 16 completed aggregation.
+[INFO] (2024/11/26 09:30:57 PM) Node 7 completed aggregation.
+[INFO] (2024/11/26 09:30:57 PM) Aggregating models on Node 8...
+[INFO] (2024/11/26 09:30:57 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 09:30:57 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 09:30:57 PM) Aggregating models on Node 18...
+[INFO] (2024/11/26 09:30:57 PM) Node 18 completed aggregation.
+[INFO] (2024/11/26 09:30:57 PM) Node 8 completed aggregation.
+[INFO] (2024/11/26 09:30:57 PM) Node 3 completed aggregation.
+[INFO] (2024/11/26 09:31:04 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0383 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:31:04 PM) Reorganizing tree to make Node 12 the new root.
+[INFO] (2024/11/26 09:31:04 PM) Broadcasting model from Node 12 to all nodes.
+[INFO] (2024/11/26 09:31:31 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 09:31:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:32:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:32:54 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:33:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0394 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:33:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0400 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:34:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0393 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:34:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0393 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:35:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:35:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:36:20 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:36:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:37:17 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:37:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0402 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:38:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:38:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:39:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9938 | precision: 0.9938 | f1: 0.9938 | recall: 0.9938 
+[INFO] (2024/11/26 09:39:43 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 09:40:21 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:41:09 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:41:09 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 09:41:09 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 09:41:17 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0385 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:41:17 PM) Reorganizing tree to make Node 2 the new root.
+[INFO] (2024/11/26 09:41:17 PM) Broadcasting model from Node 2 to all nodes.
+[INFO] (2024/11/26 09:41:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 09:42:16 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:42:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:43:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:43:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0394 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:44:06 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0399 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:44:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0393 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:44:57 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0393 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:45:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:45:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:46:18 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:46:45 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0384 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:47:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:47:38 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0401 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:48:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0391 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:48:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:48:58 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0383 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:49:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:49:50 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:50:22 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:50:22 PM) Aggregating models on Node 2...
+[INFO] (2024/11/26 09:50:22 PM) Aggregating models on Node 5...
+[INFO] (2024/11/26 09:50:22 PM) Aggregating models on Node 11...
+[INFO] (2024/11/26 09:50:22 PM) Node 11 completed aggregation.
+[INFO] (2024/11/26 09:50:22 PM) Aggregating models on Node 12...
+[INFO] (2024/11/26 09:50:22 PM) Node 12 completed aggregation.
+[INFO] (2024/11/26 09:50:22 PM) Node 5 completed aggregation.
+[INFO] (2024/11/26 09:50:22 PM) Aggregating models on Node 6...
+[INFO] (2024/11/26 09:50:22 PM) Aggregating models on Node 13...
+[INFO] (2024/11/26 09:50:22 PM) Node 13 completed aggregation.
+[INFO] (2024/11/26 09:50:22 PM) Aggregating models on Node 14...
+[INFO] (2024/11/26 09:50:22 PM) Node 14 completed aggregation.
+[INFO] (2024/11/26 09:50:22 PM) Node 6 completed aggregation.
+[INFO] (2024/11/26 09:50:22 PM) Node 2 completed aggregation.
+[INFO] (2024/11/26 09:50:29 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0386 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:50:29 PM) Reorganizing tree to make Node 17 the new root.
+[INFO] (2024/11/26 09:50:29 PM) Broadcasting model from Node 17 to all nodes.
+[INFO] (2024/11/26 09:50:56 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9937 | precision: 0.9937 | f1: 0.9937 | recall: 0.9937 
+[INFO] (2024/11/26 09:51:24 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0389 | acc1: 0.9934 | precision: 0.9934 | f1: 0.9934 | recall: 0.9934 
+[INFO] (2024/11/26 09:51:51 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:52:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:52:46 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0395 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:53:14 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0401 | acc1: 0.9929 | precision: 0.9929 | f1: 0.9929 | recall: 0.9929 
+[INFO] (2024/11/26 09:53:40 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0395 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:54:07 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0395 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:54:33 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0393 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:55:05 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:55:32 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9932 | precision: 0.9932 | f1: 0.9932 | recall: 0.9932 
+[INFO] (2024/11/26 09:55:59 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0385 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:56:26 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0387 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 09:56:52 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0403 | acc1: 0.9928 | precision: 0.9928 | f1: 0.9928 | recall: 0.9928 
+[INFO] (2024/11/26 09:57:19 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0393 | acc1: 0.9930 | precision: 0.9930 | f1: 0.9930 | recall: 0.9930 
+[INFO] (2024/11/26 09:57:44 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0394 | acc1: 0.9931 | precision: 0.9931 | f1: 0.9931 | recall: 0.9931 
+[INFO] (2024/11/26 09:58:11 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0386 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:58:48 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0390 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 09:59:25 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0392 | acc1: 0.9935 | precision: 0.9935 | f1: 0.9935 | recall: 0.9935 
+[INFO] (2024/11/26 10:00:12 PM) [MNIST] [EVALUATE] [NODE] | loss: 0.0388 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 10:00:12 PM) Aggregating models on Node 17...
+[INFO] (2024/11/26 10:00:12 PM) Node 17 completed aggregation.
+[INFO] (2024/11/26 10:00:22 PM) [MNIST] [EVALUATE] [TREE] | loss: 0.0388 | acc1: 0.9933 | precision: 0.9933 | f1: 0.9933 | recall: 0.9933 
+[INFO] (2024/11/26 10:00:22 PM) [MNIST] Saving the model and results...
+[INFO] (2024/11/26 10:00:22 PM) Model weights saved to results/VTreeLearningIID_241126_152928/VTreeLearningIID.pt
+[INFO] (2024/11/26 10:00:22 PM) [MNIST] Finalization complete!

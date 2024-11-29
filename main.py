@@ -11,7 +11,6 @@ logger = logging.getLogger(__name__)
 @hydra.main(version_base=None, config_path="conf", config_name="config")
 def main(args : DictConfig) -> None:
     
-
     curr_time = time.strftime("%y%m%d_%H%M%S", time.localtime())
     args.result_path = os.path.join(
         args.result_path, f'{args.exp_name}_{curr_time}')

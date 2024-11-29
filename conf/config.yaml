@@ -2,7 +2,7 @@ exp_name: "VTreeLearningIID"  # Nom de l'expérience
 seed: 42  # Seed pour la reproductibilité des résultats
 device: "cpu"  # Appareil utilisé pour l'entraînement ('cpu' ou 'cuda')
 result_path: "results"  # Répertoire pour sauvegarder les résultats
-model_path: "${result_path}/${exp_name}.pt"
+model_path: "${result_path}/dfl.pt"
 
 # Données
 dataset: "MNIST"  # Nom du dataset (exemple: 'CIFAR-10', 'EMNIST')
