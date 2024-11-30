@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  # node1:
+  #   build:
+  #     context: ./src/node
+  #   ports:
+  #     - "5001:5000"
+  #   environment:
+  #     NODE_ID: "1"
+
+  # node2:
+  #   build:
+  #     context: ./src/node
+  #   ports:
+  #     - "5002:5000"
+  #   environment:
+  #     NODE_ID: "2"
+
+  orchestrator:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - node1
+      - node2
+
+networks:
+  vtree_network:
+    driver: bridge
