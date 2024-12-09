@@ -4,6 +4,7 @@ import torch
 import random
 import logging
 import numpy as np
+from typing import Dict
 import concurrent.futures
 from src import TqdmToLogger
 from collections import defaultdict
@@ -167,7 +168,7 @@ def stratified_split(raw_dataset: Subset, test_size: int):
 
 
 
-def load_dataset(args):
+def load_dataset(args: Dict, node_id: int):
     """
     Load and split the dataset into training and testing sets.
     
@@ -250,4 +251,4 @@ def load_dataset(args):
     logger.info(f"End create a nodes dataset")
       
     gc.collect() # memory liberation
-    return test_dataset, node_datasets
+    return node_datasets[node_id], test_dataset

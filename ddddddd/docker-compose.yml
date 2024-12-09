@@ -1,0 +1,53 @@
+version: "3.8"
+services:
+  orchestrator: 
+    build: 
+      context: .
+    container_name: orchestrator
+    command: python orchestrator.py
+    depends_on:
+      - node1
+      - node2
+      - node3
+    networks:
+      - node_network
+
+  node1:
+    build:
+      context: .
+    container_name: node1
+    command: python node.py
+    environment:
+      - NODE_PORT=5501
+    ports:
+      - "5501:5501"
+    networks:
+      - node_network
+
+  node2:
+    build:
+      context: .
+    container_name: node2
+    command: python node.py
+    environment:
+      - NODE_PORT=5502
+    ports:
+      - "5502:5502"
+    networks:
+      - node_network
+
+  node3:
+    build:
+      context: .
+    container_name: node3
+    command: python node.py
+    environment:
+      - NODE_PORT=5503
+    ports:
+      - "5503:5503"
+    networks:
+      - node_network
+
+networks:
+  node_network:
+    driver: bridge
